@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h1>CSS interview QA</h1>
+   <p>Q1.What is box sizing?</p>
+   <pre>Box-sizing property defines how the width and height gets applied on an element. 
+    Default value of box-sizing is content-box, in this case the actual width of the box will be equal to the border and padding and width of the box ( Actual width : width + border + padding ). 
+    In case when box-sizing is set to be border-box, then the actual width will be equal to the width of the box itself. Means if we will increase the padding or border of the box then it will not increase the width of the box.
+    
+    a)    content-box (Default)
+    b)    border-box
+    </pre>
+   <p>Q2. What is animation-delay?</p>
+   <pre>It is a sub-property of CSS animation. It defines how long the animation has to wait before starting. Using the animation-delay property, you define the delay by specifying the number of seconds or milliseconds it should take before playing.
+</pre>
+   <p>Q3.Which property will you use to merge cells vertically in a grid?</p>
+   <pre>grid-column-start and grid-column-end property can be used to merge cells vertically. It also has a shorthand i.e., grid-column: start/end. If you want to merge two elements in row then we will have to use grid-row property inside the child element. Remember these properties are applicable only to child elements not to parent elements.</pre>
+   <p>Q4.Which property will you use to merge cells horizontally in a grid?</p>
+   <pre>grid-row-start and grid-row-end property can be used to merge cells horizontally. It also has a shorthand i.e., grid-row: grid-row-start/grid-row-end;
+</pre>
+   <p>Q5.What is a Box-model?</p> 
+   <pre>The box model in CSS is a set of rules that determine how your web page is rendered on the internet. In this model, a rectangular box is generated for HTML elements. This box consists of first content, then padding, then border, and finally margin.</pre>
+</body>
+</html>
